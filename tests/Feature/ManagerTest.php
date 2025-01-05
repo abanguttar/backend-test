@@ -785,7 +785,6 @@ class ManagerTest extends TestCase
                 'current_page' => $page,
                 'per_page' => 20,
                 'to' => 20 * $page,
-                "total" => 99
             ]]);
     }
 
