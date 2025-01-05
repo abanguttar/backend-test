@@ -6,6 +6,12 @@ uttarpn88@gmail.com
 
 Ini adalah project untuk backend test, dibuat menggunakan Laravel.
 
+## ERD
+
+<h4>One to Many Companies to Users</h4>
+
+![Logo](/public/assets/backed-test.drawio.png)
+
 ## Installation
 
 Clone Git Project
