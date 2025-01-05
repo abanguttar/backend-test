@@ -35,7 +35,17 @@ php artisan key:generate
 php artisan migrate
 ```
 
-buka .env file pastikan anda setup email karena akan ada send email atau bisa gunakan konfigurasi saya
+buka .env file
+
+Atur beberapa variabel
+
+```bash
+DB_CONNECTION=mysql
+
+CACHE_STORE=file
+```
+
+Pastikan anda setup email karena akan ada send email atau bisa gunakan konfigurasi saya
 
 ```bash
 MAIL_MAILER=smtp
@@ -197,6 +207,7 @@ Authorization: Bearer <token>
 | :----------------- | :------- | :----------------------------------------- |
 | `password`         | `string` | **Required**. Password pengguna            |
 | `password_confirm` | `string` | **Required**. Konfirmasi Password pengguna |
+| `token`            | `string` | **Required**. Digenerate oleh sistem       |
 
 #### Authorization
 
