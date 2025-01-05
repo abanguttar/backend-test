@@ -29,6 +29,19 @@ php artisan key:generate
 php artisan migrate
 ```
 
+buka .env file pastikan anda setup email karena akan ada send email atau bisa gunakan konfigurasi saya
+
+```bash
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=465
+MAIL_USERNAME=uttarpn88@gmail.com
+MAIL_PASSWORD=xskidnxxpxbayuxf
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="mail@example.com"
+MAIL_FROM_NAME="Paketur"
+```
+
 Run
 
 ```bash
