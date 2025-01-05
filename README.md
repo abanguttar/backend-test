@@ -27,15 +27,14 @@ Install Composer
 composer install
 ```
 
-Copy .env and run migration
+Copy .env dan generate key
 
 ```bash
 cp .env.example .env
 php artisan key:generate
-php artisan migrate
 ```
 
-buka .env file
+Buka .env file
 
 Atur beberapa variabel
 
@@ -58,7 +57,13 @@ MAIL_FROM_ADDRESS="mail@example.com"
 MAIL_FROM_NAME="Paketur"
 ```
 
-Run
+Run migration
+
+```bash
+php artisan migrate
+```
+
+Run Laravel App
 
 ```bash
 php artisan serve
