@@ -21,7 +21,7 @@ Clone Git Project
   cd backend-test
 ```
 
-Install Composer
+Run Composer
 
 ```bash
 composer install
@@ -73,6 +73,30 @@ Run Laravel App
 
 ```bash
 php artisan serve
+```
+
+Run Authentication Test
+
+```bash
+php artisan test --filter=AuthTest
+```
+
+Run Company Test
+
+```bash
+php artisan test --filter=CompanyTest
+```
+
+Run Manager Test
+
+```bash
+php artisan test --filter=ManagerTest
+```
+
+Run Employee Test
+
+```bash
+php artisan test --filter=EmployeeTest
 ```
 
 ## API Reference
