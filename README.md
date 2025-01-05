@@ -57,6 +57,12 @@ MAIL_FROM_ADDRESS="mail@example.com"
 MAIL_FROM_NAME="Paketur"
 ```
 
+Generate JWT Secret Key
+
+```bash
+php artisan jwt:secret
+```
+
 Run migration
 
 ```bash
